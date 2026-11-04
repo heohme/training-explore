@@ -1,0 +1,16 @@
+{
+  "name": "training-explore",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive explorer for learning how large language models are trained",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
